@@ -48,10 +48,10 @@ see what each property does.
 > for the CSS, and follow this repo for getting your files and submitting:
 >
 > - **Getting the starter files:** don't download the ZIP from Canvas. Create your own repo
->   from this template and open it with GitHub Desktop, as described in the
+>   from this template and clone it in WebStorm, as described in the
 >   [Getting Started guide](GETTING_STARTED.md).
-> - **Branch:** do your work on a `develop` branch, not `main`. When you commit, the
->   button will say **Commit to develop**, not **Commit to main**.
+> - **Branch:** do your work on a `develop` branch, not `main`. Before you commit, the
+>   branch name at the top left of WebStorm should say `develop`, not `main`.
 > - **Submitting:** don't zip your folder or upload a file. Publish your page to GitHub
 >   Pages, open a pull request into `main`, and submit the **pull request URL** in Canvas,
 >   as described in the [Submitting guide](SUBMITTING.md).
@@ -116,7 +116,7 @@ If something is not working, check these common issues first:
 - Did you close the parentheses and end the line with a semicolon: `url(tile.png);`?
 - Is the element big enough to show the image? A background image only fills the element's box — an empty or tiny element won't show much.
 - Is a later rule overriding yours? A `background` shorthand resets every background property it doesn't list, including `background-color`.
-- Did you commit **and** push your changes in GitHub Desktop?
+- Did you commit **and** push your changes in WebStorm?
 
 **Having problems with the video?**
 
